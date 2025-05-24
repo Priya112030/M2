@@ -1,6 +1,6 @@
 # EX-06 - Looping
 ## AIM:
-Write a C program to print even numbers ranging from M to N (including M and N values).
+Write a C program to print  numbers ranging from M to N (including M and N values).
 
 ## ALGORITHM:
 ```
@@ -8,9 +8,8 @@ Write a C program to print even numbers ranging from M to N (including M and N v
 2.	Use the printf function to prompt the user to enter the values of M and N.
 3.	Use the scanf function to read the values of M and N from the user.
 4.	Use a loop (for or while) to iterate from M to N.
-5.	Inside the loop, check if the current number is even.
-6.	If the current number is even, print it.
-7.	Continue the loop until you have iterated through all numbers from M to N.
+5.	If the current number is even, print it.
+6.	Continue the loop until you have iterated through all numbers from M to N.
 ```
 
 ## PROGRAM:
@@ -31,7 +30,7 @@ int main()
 ![Screenshot 2025-04-29 193808](https://github.com/user-attachments/assets/5c649d79-876c-469c-aeef-9b40c3a53f31)
 
 ## RESULT:
-Thus the program to print even numbers ranging from M to N (including M and N values) has been executed successfully
+Thus the program to print numbers ranging from M to N (including M and N values) has been executed successfully
  
  
 
