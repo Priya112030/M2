@@ -139,22 +139,23 @@ Write a c program to find the sum of odd digits using for loop
 ```
 ## PROGRAM:
 ```
-# include <stdio.h>
-int main()
-{
-    int num,count=1,sum=0;
-    scanf("%d",&num);
-    while(count<=num)
-    {
-        if(count%2!=0)
-        {
-            sum=sum+count;
+#include <stdio.h>
+
+int main() {
+    int num, sum = 0;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    for(int count = 1; count <= num; count++) {
+        if(count % 2 != 0) {
+            sum += count;
         }
-        count++;
     }
-    printf("%d\n",sum);
+
+    printf("Sum of odd numbers from 1 to %d is: %d\n", num, sum);
     return 0;
 }
+
 ```
 
 ## OUTPUT:
